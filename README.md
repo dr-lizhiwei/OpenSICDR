@@ -64,6 +64,7 @@ Algorithms, Validation, and Prospects. 2021.
 | AIR-CD                          | Gaofen-2 PMS (4 m)                      | He et al., 2021                       | Contains 34 Gaofen-2 full images and the corresponding cloud labels distributed at different regions of China.                                                                                      | https://github.com/AICyberTeam/AIR-CD                                                                                |
 | HRC_WHU                         | Google Earth (0.5 m to 15 m)            | Li et al., 2019                       | Comprises 150 globally distributed high-resolution images (0.5 m to 15 m resolution, three RGB channels) and the corresponding cloud masks.                                                         | [http://sendimage.whu.edu.cn/en/hrc_whu](http://sendimage.whu.edu.cn/en/hrc_whu/)                                    |
 
+
 **Reference:**
 
 Baetens, L., Desjardins, C., Hagolle, O., 2019. Validation of copernicus
