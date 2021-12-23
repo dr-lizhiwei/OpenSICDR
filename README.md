@@ -65,7 +65,7 @@ Algorithms, Validation, and Prospects. 2021.
 | HRC_WHU                         | Google Earth (0.5 m to 15 m)            | Li et al., 2019                       | Comprises 150 globally distributed high-resolution images (0.5 m to 15 m resolution, three RGB channels) and the corresponding cloud masks.                                                         | [http://sendimage.whu.edu.cn/en/hrc_whu](http://sendimage.whu.edu.cn/en/hrc_whu/)                                    |
 
 
-**Reference:**
+**References:**
 
 Baetens, L., Desjardins, C., Hagolle, O., 2019. Validation of copernicus
 Sentinel-2 cloud masks obtained from MAJA, Sen2Cor, and FMask processors using
