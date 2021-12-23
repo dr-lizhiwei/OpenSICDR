@@ -9,11 +9,35 @@ Contributors:
 
 **Open-source datasets for CCS detection**
 
+Name Source References Descriptions Link
+
+L7\_Irish Landsat-7 (30 m) Scaramuzza et al., 2012; USGS., 2016a
+
+Contains 206 Landsat-7 scenes from nine global latitude zones with manually generated masks, of which only 45 scenes are labeled for cloud shadows.
+
+[https://landsat.usgs.gov/landsat-7-cloud-cover-assessment-validation-data](https://landsat.usgs.gov/landsat-7-cloud-cover-assessment-validation-data)
+
+L8\_SPARCS Landsat-8(30 m) Hughes and Hayes, 2014; USGS., 2016c
+
+Contains 80 subsets of Landsat-8 scenes with a size of 1000×1000 pixels that are labeled for both clouds and cloud shadows.
+
+[https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs](https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs)
+
 | Name | Source | References | Descriptions | Link |
 | --- | --- | --- | --- | --- |
-| L7\_Irish | Landsat-7(30 m) | Scaramuzza et al., 2012; USGS., 2016a | Contains 206 Landsat-7 scenes from nine global latitude zones with manually generated masks, of which only 45 scenes are labeled for cloud shadows. | [https://landsat.usgs.gov/landsat-7-cloud-cover-assessment-validation-data](https://landsat.usgs.gov/landsat-7-cloud-cover-assessment-validation-data) |
+|
+ |
+ |
+ |
+ |
+ |
 | --- | --- | --- | --- | --- |
-| L8\_SPARCS | Landsat-8(30 m) | Hughes and Hayes, 2014; USGS., 2016c | Contains 80 subsets of Landsat-8 scenes with a size of 1000×1000 pixels that are labeled for both clouds and cloud shadows. | [https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs](https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs) |
+|
+ |
+ |
+ |
+ |
+ |
 | L8\_Biome | Landsat-8(30 m) | Foga et al., 2017; USGS., 2016b | Contains 96 Landsat-8 scenes from eight global biomes with manually generated cloud masks, of which 32 scenes are labeled for cloud shadows. | [https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data) |
 | 95-Cloud | Landsat-8(30 m) | Mohajerani and Saeedi, 2019 | Contains 95 Landsat-8 images and associated pixel-level cloud labels that is an extension of the previously established 38-Cloud dataset. | https://github.com/SorourMo/95-Cloud-An-Extension-to-38-Cloud-Dataset |
 | Snow-Cloud Validation Masks | Landsat-8(30 m) | Stillinger and Collar, 2019 | Contains 13 Landsat-8 images and corresponding clouds and snow labels at mid-latitude mountainous regions. | https://zenodo.org/record/3240937 |
