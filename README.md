@@ -1,16 +1,26 @@
-# OpenSICDR
+# Open Satellite Image Cloud Detection Resources
 
-Appendix I: Open-source tools for CCS detection
-	Name	Applicable images (mainly)	References	Descriptions 
-(data and method)	Link
-Landsat	Fmask	Landsat 4-8
-Sentinel-2	Zhu et al., 2012 & 2015
+Reference:
+Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang,Peng Dou, Liangpei Zhang. Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features, Algorithms, Validation, and Prospects. 2021
+
+Contributors:
+1. Zhiwei Li, Wuhan University
+2. Yuzhuo Zhang, Wuhan University
+
+Open-source tools for CCS detection
+
+Landsat
+Fmask	Landsat 4-8 Sentinel-2
+Zhu et al., 2012 & 2015
 Mono-temporal image
-Physical rule based	https://github.com/GERSL/Fmask 
+Physical rule based
+https://github.com/GERSL/Fmask 
 
-	Tmask	Landsat 4-8	Zhu and Woodcock, 2014b
+Tmask	Landsat 4-8
+Zhu and Woodcock, 2014b
 Multi-temporal images
-Temporal change based	https://github.com/GERSL/Tmask 
+Temporal change based
+https://github.com/GERSL/Tmask 
 
 	MSScvm	Landsat MSS	Braaten et al., 2015
 Multi-source data
@@ -139,6 +149,7 @@ Contains 745 paired NIR-R-G composited images and corresponding pixel-level labe
 AIR-CD	Gaofen-2 PMS
 (4 m)	He et al., 2021
 Contains 34 Gaofen-2 full images and the corresponding cloud labels distributed at different regions of China. 	https://github.com/AICyberTeam/AIR-CD
-HRC_WHU	Google Earth
-(0.5 m to 15 m)	Li et al., 2019
+
+HRC_WHU	Google Earth (0.5 m to 15 m)
+Li et al., 2019
 Comprises 150 globally distributed high-resolution images (0.5 m to 15 m resolution, three RGB channels) and the corresponding cloud masks.	http://sendimage.whu.edu.cn/en/hrc_whu
