@@ -10,7 +10,9 @@ Contributors:
 **Open-source datasets for CCS detection**
 
 | Name | Source | References | Descriptions | Link |
-| L7\_Irish | Landsat-7(30 m) | Scaramuzza et al., 2012; USGS., 2016a | Contains 206 Landsat-7 scenes from nine global latitude zones with manually generated masks, of which only 45 scenes are labeled for cloud shadows. | [Link](https://landsat.usgs.gov/landsat-7-cloud-cover-assessment-validation-data) |
+| --- | --- | --- | --- | --- |
+| L7\_Irish | Landsat-7(30 m) | Scaramuzza et al., 2012; USGS., 2016a | Contains 206 Landsat-7 scenes from nine global latitude zones with manually generated masks, of which only 45 scenes are labeled for cloud shadows. | [https://landsat.usgs.gov/landsat-7-cloud-cover-assessment-validation-data](https://landsat.usgs.gov/landsat-7-cloud-cover-assessment-validation-data) |
+| --- | --- | --- | --- | --- |
 | L8\_SPARCS | Landsat-8(30 m) | Hughes and Hayes, 2014; USGS., 2016c | Contains 80 subsets of Landsat-8 scenes with a size of 1000×1000 pixels that are labeled for both clouds and cloud shadows. | [https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs](https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs) |
 | L8\_Biome | Landsat-8(30 m) | Foga et al., 2017; USGS., 2016b | Contains 96 Landsat-8 scenes from eight global biomes with manually generated cloud masks, of which 32 scenes are labeled for cloud shadows. | [https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data) |
 | 95-Cloud | Landsat-8(30 m) | Mohajerani and Saeedi, 2019 | Contains 95 Landsat-8 images and associated pixel-level cloud labels that is an extension of the previously established 38-Cloud dataset. | https://github.com/SorourMo/95-Cloud-An-Extension-to-38-Cloud-Dataset |
@@ -33,7 +35,9 @@ Contributors:
 **Open-source tools for CCS detection**
 
 | Name | Applicable images (mainly) | References | Descriptions (data and method) | Link |
+| --- | --- | --- | --- | --- |
 | Fmask | Landsat 4-8Sentinel-2 | Zhu et al., 2012 &amp; 2015 | Mono-temporal imagePhysical rule based | [https://github.com/GERSL/Fmask](https://github.com/GERSL/Fmask) |
+| --- | --- | --- | --- | --- |
 | Tmask | Landsat 4-8 | Zhu and Woodcock, 2014b | Multi-temporal imagesTemporal change based | [https://github.com/GERSL/Tmask](https://github.com/GERSL/Tmask) |
 | MSScvm | Landsat MSS | Braaten et al., 2015 | Multi-source dataPhysical rule based | [https://github.com/jdbcode/MSScvm](https://github.com/jdbcode/MSScvm) |
 | MFmask | Landsat 4-8 | Qiu et al., 2017 | Multi-source dataPhysical rule based | https://github.com/qsly09/MFmask |
