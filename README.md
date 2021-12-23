@@ -1,16 +1,13 @@
 # Open Satellite Image Cloud Detection Resources (OpenSICDR)
 
 **Reference:**
-
 Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang,Peng Dou, Liangpei Zhang.
 Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features,
 Algorithms, Validation, and Prospects. 2021.
 
 **Contributors:**
-
-1\. Zhiwei Li, Wuhan University
-
-2\. Yuzhuo Zhang, Wuhan University
+1. Zhiwei Li, Wuhan University
+2. Yuzhuo Zhang, Wuhan University
 
 **Open-source tools for CCS detection**
 
