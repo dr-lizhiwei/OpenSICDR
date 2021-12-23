@@ -1,6 +1,8 @@
 # Open Satellite Image Cloud Detection Resources (OpenSICDR)
 
-We collects the latest open-source tools and datasets for cloud and cloud shadow detection and launches an online project (Open Satellite Image Cloud Detection Resources, i.e., OpenSICDR) to share the latest research outputs. If you can provide a new resource as shown below, please contact Zhiwei Li by email to update it, or submit a revision request. Let's maintain OpenSICDR together to promote the sharing of research output in this field.
+We collects the latest open-source tools and datasets for cloud and cloud shadow detection and launches an online project (Open Satellite Image Cloud Detection Resources, i.e., OpenSICDR) to share the latest research outputs. If you can provide new resources as shown in the table below, please contact Zhiwei Li by email to add them, or submit a revision request.
+
+Let's maintain OpenSICDR together to promote the sharing of research output in this field.
 
 **Source:**
 
@@ -10,9 +12,9 @@ Algorithms, Validation, and Prospects. 2021.
 
 **Contributors:**
 
-1\. Zhiwei Li, Wuhan University
+1\. Zhiwei Li, Wuhan University, lizw(AT)whu.edu.cn
 
-2\. Yuzhuo Zhang, Wuhan University
+2\. Yuzhuo Zhang, Wuhan University, yuzhuozhang816(AT)whu.edu.cn
 
 
 **Open-source tools for CCS detection**
