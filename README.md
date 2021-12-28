@@ -15,7 +15,7 @@ Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cl
 Last update: December 1, 2021
 
 
-**Open-source datasets for CCS detection**
+**Open-source datasets for cloud and cloud shadow detection**
 
 | Name                            | Source                                  | References                            | Descriptions                                                                                                                                                                                        | Link                                                                                                                 |
 |---------------------------------|-----------------------------------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -41,7 +41,7 @@ Last update: December 1, 2021
 
 
 
-**Open-source tools for CCS detection**
+**Open-source tools for cloud and cloud shadow detection**
 
 |            | Name        | Applicable images (mainly)   | References                     | Descriptions  (data and method)             | Link                                                                                    |
 |------------|-------------|------------------------------|--------------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------|
