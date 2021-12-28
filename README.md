@@ -15,29 +15,6 @@ Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cl
 Last update: December 1, 2021
 
 
-**Open-source tools for CCS detection**
-
-|            | Name        | Applicable images (mainly)   | References                     | Descriptions  (data and method)             | Link                                                                                    |
-|------------|-------------|------------------------------|--------------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------|
-| Landsat    | Fmask       | Landsat 4-8 Sentinel-2       | Zhu et al., 2012 & 2015        | Mono-temporal image Physical rule based     | <https://github.com/GERSL/Fmask>                                                        |
-|            | Tmask       | Landsat 4-8                  | Zhu and Woodcock, 2014b        | Multi-temporal images Temporal change based | <https://github.com/GERSL/Tmask>                                                        |
-|            | MSScvm      | Landsat MSS                  | Braaten et al., 2015           | Multi-source data Physical rule based       | <https://github.com/jdbcode/MSScvm>                                                     |
-|            | MFmask      | Landsat 4-8                  | Qiu et al., 2017               | Multi-source data Physical rule based       | https://github.com/qsly09/MFmask                                                        |
-|            | MCM-GEE     | Landsat-8                    | Mateo-García et al., 2018      | Multi-temporal images Temporal change based | https://github.com/IPL-UV/ee_ipl_uv                                                     |
-|            | Cloud-Net   | Landsat-8                    | Mohajerani and Saeedi, 2019    | Mono-temporal image DL based                | <https://github.com/SorourMo/Cloud-Net-A-semantic-segmentation-CNN-for-cloud-detection> |
-|            | Cmask       | Landsat-8                    | Qiu et al., 2020               | Multi-temporal images Temporal change based | https://github.com/GERSL/Cmask                                                          |
-|            | DAGANS      | Landsat-8 Proba-V            | Mateo-Garcia et al., 2020      | Mono-temporal image DL based                | https://github.com/IPL-UV/pvl8dagans                                                    |
-|            | FCNN        | Landsats-8 Sentinel-2        | López-Puigdollers et al., 2021 | Mono-temporal image DL based                | <https://github.com/IPL-UV/DL-L8S2-UV>                                                  |
-| Sentinel-2 | MAJA        | Sentinel-2, VENµS, Landsat-8 | Hagolle et al., 2010           | Multi-temporal image Temporal change based  | https://github.com/CNES/MAJA                                                            |
-|            | cB4S2       | Sentinel-2                   | Hollstein et al., 2016         | Mono-temporal image Machine learning based  | <https://github.com/hollstein/cB4S2>                                                    |
-|            | Sen2Cor     | Sentinel-2                   | Main-Knorn et al., 2017        | Mono-temporal image Physical rule based     | <https://step.esa.int/main/snap-supported-plugins/sen2cor/>                             |
-|            | s2cloudless | Sentinel-2                   | Zupanc, 2017                   | Mono-temporal image Machine learning based  | https://github.com/sentinel-hub/sentinel2-cloud-detector                                |
-|            | FmaskCDI    | Sentinel-2                   | Frantz et al., 2018            | Mono-temporal image Physical rule based     | <https://www.uni-trier.de/index.php?id=63673>                                           |
-|            | KappaMask   | Sentinel-2                   | Domnich et al., 2021           | Mono-temporal image DL based                | https://github.com/kappazeta/cm_predict                                                 |
-| Gaofen     | MFC         | Gaofen-1 WFV                 | Li et al., 2017                | Mono-temporal image Physical rule based     | <http://sendimage.whu.edu.cn/en/mfc>                                                    |
-|            | GeoInfoNet  | Gaofen-1 WFV                 | Wu et al., 2021                | Mono-temporal image DL based                | https://github.com/permanentCH5/GeoInfoNet                                              |
-| Others     | N/A         | HR images                    | Xie et al., 2017               | Mono-temporal image DL based                | <http://xfy.buaa.edu.cn/code.html>                                                      |
-
 **Open-source datasets for CCS detection**
 
 | Name                            | Source                                  | References                            | Descriptions                                                                                                                                                                                        | Link                                                                                                                 |
@@ -61,6 +38,31 @@ Last update: December 1, 2021
 | N/A                             | Gaofen series (N/A)                     | Sun et al., 2020                      | Contains 745 paired NIR-R-G composited images and corresponding pixel-level labels with a size of 256×256 pixels.                                                                                   | https://bhpan.buaa.edu.cn/\#/link/DDC7765A5A049E0F9A0DAD0E9F7692C5                                                   |
 | AIR-CD                          | Gaofen-2 PMS (4 m)                      | He et al., 2021                       | Contains 34 Gaofen-2 full images and the corresponding cloud labels distributed at different regions of China.                                                                                      | https://github.com/AICyberTeam/AIR-CD                                                                                |
 | HRC_WHU                         | Google Earth (0.5 m to 15 m)            | Li et al., 2019                       | Comprises 150 globally distributed high-resolution images (0.5 m to 15 m resolution, three RGB channels) and the corresponding cloud masks.                                                         | [http://sendimage.whu.edu.cn/en/hrc_whu](http://sendimage.whu.edu.cn/en/hrc_whu/)                                    |
+
+
+
+**Open-source tools for CCS detection**
+
+|            | Name        | Applicable images (mainly)   | References                     | Descriptions  (data and method)             | Link                                                                                    |
+|------------|-------------|------------------------------|--------------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------|
+| Landsat    | Fmask       | Landsat 4-8 Sentinel-2       | Zhu et al., 2012 & 2015        | Mono-temporal image Physical rule based     | <https://github.com/GERSL/Fmask>                                                        |
+|            | Tmask       | Landsat 4-8                  | Zhu and Woodcock, 2014b        | Multi-temporal images Temporal change based | <https://github.com/GERSL/Tmask>                                                        |
+|            | MSScvm      | Landsat MSS                  | Braaten et al., 2015           | Multi-source data Physical rule based       | <https://github.com/jdbcode/MSScvm>                                                     |
+|            | MFmask      | Landsat 4-8                  | Qiu et al., 2017               | Multi-source data Physical rule based       | https://github.com/qsly09/MFmask                                                        |
+|            | MCM-GEE     | Landsat-8                    | Mateo-García et al., 2018      | Multi-temporal images Temporal change based | https://github.com/IPL-UV/ee_ipl_uv                                                     |
+|            | Cloud-Net   | Landsat-8                    | Mohajerani and Saeedi, 2019    | Mono-temporal image DL based                | <https://github.com/SorourMo/Cloud-Net-A-semantic-segmentation-CNN-for-cloud-detection> |
+|            | Cmask       | Landsat-8                    | Qiu et al., 2020               | Multi-temporal images Temporal change based | https://github.com/GERSL/Cmask                                                          |
+|            | DAGANS      | Landsat-8 Proba-V            | Mateo-Garcia et al., 2020      | Mono-temporal image DL based                | https://github.com/IPL-UV/pvl8dagans                                                    |
+|            | FCNN        | Landsats-8 Sentinel-2        | López-Puigdollers et al., 2021 | Mono-temporal image DL based                | <https://github.com/IPL-UV/DL-L8S2-UV>                                                  |
+| Sentinel-2 | MAJA        | Sentinel-2, VENµS, Landsat-8 | Hagolle et al., 2010           | Multi-temporal image Temporal change based  | https://github.com/CNES/MAJA                                                            |
+|            | cB4S2       | Sentinel-2                   | Hollstein et al., 2016         | Mono-temporal image Machine learning based  | <https://github.com/hollstein/cB4S2>                                                    |
+|            | Sen2Cor     | Sentinel-2                   | Main-Knorn et al., 2017        | Mono-temporal image Physical rule based     | <https://step.esa.int/main/snap-supported-plugins/sen2cor/>                             |
+|            | s2cloudless | Sentinel-2                   | Zupanc, 2017                   | Mono-temporal image Machine learning based  | https://github.com/sentinel-hub/sentinel2-cloud-detector                                |
+|            | FmaskCDI    | Sentinel-2                   | Frantz et al., 2018            | Mono-temporal image Physical rule based     | <https://www.uni-trier.de/index.php?id=63673>                                           |
+|            | KappaMask   | Sentinel-2                   | Domnich et al., 2021           | Mono-temporal image DL based                | https://github.com/kappazeta/cm_predict                                                 |
+| Gaofen     | MFC         | Gaofen-1 WFV                 | Li et al., 2017                | Mono-temporal image Physical rule based     | <http://sendimage.whu.edu.cn/en/mfc>                                                    |
+|            | GeoInfoNet  | Gaofen-1 WFV                 | Wu et al., 2021                | Mono-temporal image DL based                | https://github.com/permanentCH5/GeoInfoNet                                              |
+| Others     | N/A         | HR images                    | Xie et al., 2017               | Mono-temporal image DL based                | <http://xfy.buaa.edu.cn/code.html>                                                      |
 
 
 **References:**
