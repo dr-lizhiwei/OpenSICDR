@@ -4,7 +4,7 @@ We collects the latest open-source tools and datasets for cloud and cloud shadow
 
 **Source:**
 
-Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features, Algorithms, Validation, and Prospects. 2021. (Submitted)
+Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features, Algorithms, Validation, and Prospects. 2022. (Submitted)
 
 **Contributors:**
 
@@ -17,8 +17,8 @@ Last update: December 1, 2021
 
 **Open-source datasets for cloud and cloud shadow detection**
 
-| Name                            | Source                       | References                   | Descriptions                    | Link             |
-|--------------------------|-----------------------------------------|---------------------------------------|-------------|----------------------------------------|
+| Name                            | Source                                  | References                            | Descriptions                                                                                                                                                                                        | Link                                                                                                                 |
+|---------------------------------|-----------------------------------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | L7_Irish                        | Landsat-7 (30 m)                        | Scaramuzza et al., 2012; USGS., 2016a | Contains 206 Landsat-7 scenes from nine global latitude zones with manually generated masks, of which only 45 scenes are labeled for cloud shadows.                                                 | <https://landsat.usgs.gov/landsat-7-cloud-cover-assessment-validation-data>                                          |
 | L8_SPARCS                       | Landsat-8 (30 m)                        | Hughes and Hayes, 2014; USGS., 2016c  | Contains 80 subsets of Landsat-8 scenes with a size of 1000×1000 pixels that are labeled for both clouds and cloud shadows.                                                                         | <https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs> |
 | L8_Biome                        | Landsat-8 (30 m)                        | Foga et al., 2017; USGS., 2016b       | Contains 96 Landsat-8 scenes from eight global biomes with manually generated cloud masks, of which 32 scenes are labeled for cloud shadows.                                                        | <https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data>                                          |
