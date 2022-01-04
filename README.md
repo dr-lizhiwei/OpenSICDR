@@ -16,9 +16,13 @@ Last update: December 1, 2021
 
 
 **Open-source datasets for cloud and cloud shadow detection**
-
+<style>
+table th:first-of-type {
+	width: 100px;
+}
+</style>
 | Name                            | Source                                  | References                            | Descriptions                                                                                                                                                                                        | Link                                                                                                                 |
-|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
+|---------------------------------|-----------------------------------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | L7_Irish                        | Landsat-7 (30 m)                        | Scaramuzza et al., 2012; USGS., 2016a | Contains 206 Landsat-7 scenes from nine global latitude zones with manually generated masks, of which only 45 scenes are labeled for cloud shadows.                                                 | <https://landsat.usgs.gov/landsat-7-cloud-cover-assessment-validation-data>                                          |
 | L8_SPARCS                       | Landsat-8 (30 m)                        | Hughes and Hayes, 2014; USGS., 2016c  | Contains 80 subsets of Landsat-8 scenes with a size of 1000×1000 pixels that are labeled for both clouds and cloud shadows.                                                                         | <https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs> |
 | L8_Biome                        | Landsat-8 (30 m)                        | Foga et al., 2017; USGS., 2016b       | Contains 96 Landsat-8 scenes from eight global biomes with manually generated cloud masks, of which 32 scenes are labeled for cloud shadows.                                                        | <https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data>                                          |
@@ -54,7 +58,7 @@ Last update: December 1, 2021
 |            | Cmask       | Landsat-8                    | Qiu et al., 2020               | Multi-temporal images Temporal change based | https://github.com/GERSL/Cmask                                                          |
 |            | DAGANS      | Landsat-8 Proba-V            | Mateo-Garcia et al., 2020      | Mono-temporal image DL based                | https://github.com/IPL-UV/pvl8dagans                                                    |
 |            | FCNN        | Landsats-8 Sentinel-2        | López-Puigdollers et al., 2021 | Mono-temporal image DL based                | <https://github.com/IPL-UV/DL-L8S2-UV>                                                  |
-| Sentinel-2 | MAJA        | Sentinel-2, VENµS, Landsat-8 | Hagolle et al., 2010           | Multi-temporal image Temporal change based  | https://github.com/CNES/MAJA                                                            |
+| Sentinel-2 | MAJA        | Sentinel-2, VENμS, Landsat-8 | Hagolle et al., 2010           | Multi-temporal image Temporal change based  | https://github.com/CNES/MAJA                                                            |
 |            | cB4S2       | Sentinel-2                   | Hollstein et al., 2016         | Mono-temporal image Machine learning based  | <https://github.com/hollstein/cB4S2>                                                    |
 |            | Sen2Cor     | Sentinel-2                   | Main-Knorn et al., 2017        | Mono-temporal image Physical rule based     | <https://step.esa.int/main/snap-supported-plugins/sen2cor/>                             |
 |            | s2cloudless | Sentinel-2                   | Zupanc, 2017                   | Mono-temporal image Machine learning based  | https://github.com/sentinel-hub/sentinel2-cloud-detector                                |
@@ -80,7 +84,7 @@ identification in Landsat MSS imagery for temperate ecosystems. Remote Sensing
 of Environment 169, 128–138. https://doi.org/10.1016/j.rse.2015.08.006
 
 Domnich, M., Sünter, I., Trofimov, H., Wold, O., Harun, F., Kostiukhin, A.,
-Järveoja, M., Veske, M., Tamm, T., Voormansik, K., Olesk, A., Boccia, V.,
+J?rveoja, M., Veske, M., Tamm, T., Voormansik, K., Olesk, A., Boccia, V.,
 Longepe, N., Cadau, E.G., 2021. KappaMask: AI-Based Cloudmask Processor for
 Sentinel-2. Remote Sensing 13, 4140.
 
@@ -93,7 +97,7 @@ https://doi.org/10.1016/j.rse.2017.03.026
 Francis, A., Mrziglod, J., Sidiropoulos, P., Muller, J.-P., 2020. Sentinel-2
 Cloud Mask Catalogue [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4172871
 
-Frantz, D., Haß, E., Uhl, A., Stoffels, J., Hill, J., 2018. Improvement of the
+Frantz, D., Ha?, E., Uhl, A., Stoffels, J., Hill, J., 2018. Improvement of the
 Fmask algorithm for Sentinel-2 images: Separating clouds from bright surfaces
 based on parallax effects. Remote Sensing of Environment 215, 471–481.
 https://doi.org/10.1016/j.rse.2018.04.046
@@ -154,7 +158,7 @@ F., 2017. Sen2Cor for Sentinel-2, in: Bruzzone, L., Bovolo, F., Benediktsson,
 J.A. (Eds.), Image and Signal Processing for Remote Sensing XXIII. SPIE, p. 3.
 https://doi.org/10.1117/12.2278218
 
-Mateo-García, G., Gómez-Chova, L., Amorós-López, J., Muñoz-Marí, J.,
+Mateo-García, G., Gómez-Chova, L., Amorós-López, J., Mu?oz-Marí, J.,
 Camps-Valls, G., 2018. Multitemporal cloud masking in the Google Earth Engine.
 Remote Sensing 10, 7–9. https://doi.org/10.3390/rs10071079
 
