@@ -16,11 +16,7 @@ Last update: December 1, 2021
 
 
 **Open-source datasets for cloud and cloud shadow detection**
-<style>
-table th:first-of-type {
-	width: 100px;
-}
-</style>
+
 | Name                            | Source                                  | References                            | Descriptions                                                                                                                                                                                        | Link                                                                                                                 |
 |---------------------------------|-----------------------------------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | L7_Irish                        | Landsat-7 (30 m)                        | Scaramuzza et al., 2012; USGS., 2016a | Contains 206 Landsat-7 scenes from nine global latitude zones with manually generated masks, of which only 45 scenes are labeled for cloud shadows.                                                 | <https://landsat.usgs.gov/landsat-7-cloud-cover-assessment-validation-data>                                          |
