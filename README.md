@@ -232,3 +232,4 @@ https://doi.org/10.1016/j.rse.2011.10.028
 
 Zupanc, A., 2017. Improving cloud detection with machine learning.
 https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13.
+
