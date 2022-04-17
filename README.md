@@ -4,7 +4,7 @@ We collect the latest open-source tools and datasets for cloud and cloud shadow 
 
 **Source:**
 
-Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features, Algorithms, Validation, and Prospects. ISPRS Journal of Photogrammetry and Remote Sensing, vol. 188, pp. 89-108, 2022. [PDF]
+Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features, Algorithms, Validation, and Prospects. ISPRS Journal of Photogrammetry and Remote Sensing, vol. 188, pp. 89-108, 2022.
 
 **Contributors:**
 
