@@ -1,10 +1,10 @@
 # Open Satellite Image Cloud Detection Resources (OpenSICDR)
 
-We collects the latest open-source tools and datasets for cloud and cloud shadow detection, and launches the OpenSICDR project to promote the sharing of the latest research outputs (datasets and code/tools) of the field. If you would like to provide new resources as shown in the table below, please contact Zhiwei Li to add them, or submit an update request.
+We collect the latest open-source tools and datasets for cloud and cloud shadow detection, and launch the OpenSICDR project to promote the sharing of the latest research outputs (datasets and code/tools) of the field. If you would like to provide new resources as shown in the table below, please contact Zhiwei Li to add them, or submit an update request.
 
 **Source:**
 
-Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features, Algorithms, Validation, and Prospects. 2022. (Submitted)
+Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features, Algorithms, Validation, and Prospects. ISPRS Journal of Photogrammetry and Remote Sensing, vol. 188, pp. 89-108, 2022. 
 
 **Contributors:**
 
@@ -12,7 +12,7 @@ Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cl
 
 2\. Yuzhuo Zhang, Wuhan University, yuzhuozhang816(AT)whu.edu.cn
 
-Last update: December 1, 2021
+Last update: April 15, 2022
 
 
 **Open-source datasets for cloud and cloud shadow detection**
@@ -58,8 +58,9 @@ Last update: December 1, 2021
 |            | cB4S2       | Sentinel-2                   | Hollstein et al., 2016         | Mono-temporal image Machine learning based  | <https://github.com/hollstein/cB4S2>                                                    |
 |            | Sen2Cor     | Sentinel-2                   | Main-Knorn et al., 2017        | Mono-temporal image Physical rule based     | <https://step.esa.int/main/snap-supported-plugins/sen2cor/>                             |
 |            | s2cloudless | Sentinel-2                   | Zupanc, 2017                   | Mono-temporal image Machine learning based  | https://github.com/sentinel-hub/sentinel2-cloud-detector                                |
-|            | FmaskCDI    | Sentinel-2                   | Frantz et al., 2018            | Mono-temporal image Physical rule based     | <https://www.uni-trier.de/index.php?id=63673>                                           |
+|            | FORCE    | Sentinel-2, Landsat 4-8         | Frantz et al., 2018            | Mono-temporal image Physical rule based     | <https://github.com/davidfrantz/force>                                           |
 |            | KappaMask   | Sentinel-2                   | Domnich et al., 2021           | Mono-temporal image DL based                | https://github.com/kappazeta/cm_predict                                                 |
+|            | CD-FM3SF    | Sentinel-2                   | Li et al., 2021           | Mono-temporal image DL based                | https://github.com/Neooolee/WHUS2-CD                                                 |
 | Gaofen     | MFC         | Gaofen-1 WFV                 | Li et al., 2017                | Mono-temporal image Physical rule based     | <http://sendimage.whu.edu.cn/en/mfc>                                                    |
 |            | GeoInfoNet  | Gaofen-1 WFV                 | Wu et al., 2021                | Mono-temporal image DL based                | https://github.com/permanentCH5/GeoInfoNet                                              |
 | Others     | N/A         | HR images                    | Xie et al., 2017               | Mono-temporal image DL based                | <http://xfy.buaa.edu.cn/code.html>                                                      |
