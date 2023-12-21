@@ -45,20 +45,20 @@ Last update: April 15, 2022
 
 |            | **Name**    | **Applicable Images (Primarily)** | **References**                 | **Descriptions (Data and Method)** | **Link**                                                                                |
 |------------|-------------|------------------------------|--------------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------|
-| Landsat | Fmask   | Landsat 4-8 Sentinel-2   | Zhu et al., 2012 & 2015    | Mono-temporal<br />Physical rule based | [Link](https://github.com/GERSL/Fmask)                                            |
+| Landsat | Fmask   | Landsat 4-8<br />Sentinel-2 | Zhu et al., 2012 & 2015    | Mono-temporal<br />Physical rule based | [Link](https://github.com/GERSL/Fmask)                                            |
 |            | Tmask   | Landsat 4-8              | Zhu and Woodcock, 2014b    | Multi-temporal<br />Temporal change based | [Link](https://github.com/GERSL/Tmask)                                            |
 |            | MSScvm  | Landsat MSS              | Braaten et al., 2015       | Multi-source<br />Physical rule based | [Link](https://github.com/jdbcode/MSScvm)                                         |
 |            | MFmask  | Landsat 4-8              | Qiu et al., 2017           | Multi-source<br />Physical rule based | [Link](https://github.com/qsly09/MFmask)                                            |
 |            | MCM-GEE | Landsat-8                | Mateo-García et al., 2018  | Multi-temporal<br />Temporal change based | [Link](https://github.com/IPL-UV/ee_ipl_uv)                                         |
 |            | Cloud-Net | Landsat-8                | Mohajerani and Saeedi, 2019 | Mono-temporal<br />DL based      | [Link](https://github.com/SorourMo/Cloud-Net-A-semantic-segmentation-CNN-for-cloud-detection) |
 |            | Cmask   | Landsat-8                | Qiu et al., 2020           | Multi-temporal<br />Temporal change based | [Link](https://github.com/GERSL/Cmask)                                              |
-|            | DAGANS  | Landsat-8 Proba-V        | Mateo-Garcia et al., 2020  | Mono-temporal<br />DL based      | [Link](https://github.com/IPL-UV/pvl8dagans)                                        |
-|            | FCNN    | Landsats-8 Sentinel-2    | López-Puigdollers et al., 2021 | Mono-temporal<br />DL based      | [Link](https://github.com/IPL-UV/DL-L8S2-UV)                                      |
-| Sentinel-2 | MAJA    | Sentinel-2, VENμS, Landsat-8 | Hagolle et al., 2010       | Multi-temporal<br />Temporal change based | [Link](https://github.com/CNES/MAJA)                                                |
+|            | DAGANS  | Landsat-8<br />Proba-V  | Mateo-Garcia et al., 2020  | Mono-temporal<br />DL based      | [Link](https://github.com/IPL-UV/pvl8dagans)                                        |
+|            | FCNN    | Landsats-8<br />Sentinel-2 | López-Puigdollers et al., 2021 | Mono-temporal<br />DL based      | [Link](https://github.com/IPL-UV/DL-L8S2-UV)                                      |
+| Sentinel-2 | MAJA    | Sentinel-2<br />VENμS<br />Landsat-8 | Hagolle et al., 2010       | Multi-temporal<br />Temporal change based | [Link](https://github.com/CNES/MAJA)                                                |
 |            | cB4S2   | Sentinel-2               | Hollstein et al., 2016     | Mono-temporal<br />Machine learning based | [Link](https://github.com/hollstein/cB4S2)                                        |
 |            | Sen2Cor | Sentinel-2               | Main-Knorn et al., 2017    | Mono-temporal<br />Physical rule based | [Link](https://step.esa.int/main/snap-supported-plugins/sen2cor/)                 |
 |            | s2cloudless | Sentinel-2               | Zupanc, 2017               | Mono-temporal<br />Machine learning based | [Link](https://github.com/sentinel-hub/sentinel2-cloud-detector)                    |
-|            | FORCE | Sentinel-2, Landsat 4-8     | Frantz et al., 2018        | Mono-temporal<br />Physical rule based | [Link](https://github.com/davidfrantz/force)                               |
+|            | FORCE | Sentinel-2<br />Landsat 4-8 | Frantz et al., 2018        | Mono-temporal<br />Physical rule based | [Link](https://github.com/davidfrantz/force)                               |
 |            | KappaMask | Sentinel-2               | Domnich et al., 2021       | Mono-temporal<br />DL based      | [Link](https://github.com/kappazeta/cm_predict)                                     |
 |            | CD-FM3SF | Sentinel-2               | Li et al., 2021       | Mono-temporal<br />DL based      | [Link](https://github.com/Neooolee/WHUS2-CD)                                     |
 | Gaofen | **MFC** | Gaofen-1 WFV             | Li et al., 2017            | Mono-temporal<br />Physical rule based | **[Link](http://sendimage.whu.edu.cn/en/mfc)**                                     |
