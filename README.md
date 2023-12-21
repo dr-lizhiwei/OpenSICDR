@@ -46,7 +46,7 @@ Last update: April 15, 2022
 |            | **Name**    | **Applicable Images (Primarily)** | **References**                 | **Descriptions (Data and Method)** | **Link**                                                                                |
 |:-----------|:------------|:-----------------------------|:-------------------------------|:--------------------------------------------|:----------------------------------------------------------------------------------------|
 | Landsat | Fmask   | Landsat 4-8<br />Sentinel-2 | Zhu et al., 2012 & 2015    | Mono-temporal<br />Physical rule based | [Link](https://github.com/GERSL/Fmask)                                            |
-|            | Tmask   | Landsat 4-8              | Zhu and Woodcock, 2014b    | Multi-temporal<br />Temporal change based | [Link](https://github.com/GERSL/Tmask)                                            |
+|            | Tmask   | Landsat 4-8              | Zhu and Woodcock, 2014    | Multi-temporal<br />Temporal change based | [Link](https://github.com/GERSL/Tmask)                                            |
 |            | MSScvm  | Landsat MSS              | Braaten et al., 2015       | Multi-source<br />Physical rule based | [Link](https://github.com/jdbcode/MSScvm)                                         |
 |            | MFmask  | Landsat 4-8              | Qiu et al., 2017           | Multi-source<br />Physical rule based | [Link](https://github.com/qsly09/MFmask)                                            |
 |            | MCM-GEE | Landsat-8                | Mateo-García et al., 2018  | Multi-temporal<br />Temporal change based | [Link](https://github.com/IPL-UV/ee_ipl_uv)                                         |
