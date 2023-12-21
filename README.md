@@ -2,18 +2,20 @@
 
 We collect the latest open-source tools and datasets for cloud and cloud shadow detection, and launch this online project (Open Satellite Image Cloud Detection Resources, i.e., OpenSICDR) to promote the sharing of the latest research outputs of the field. If you would like to provide new resources, please kindly contact <a href='https://zhiweili.net/'>Dr. Zhiwei Li</a> at <a href="mailto:dr.lizhiwei@gmail.com">dr.lizhiwei(AT)gmail.com</a> or submit an update request.
 
+
 **Source:**
 
 **Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features, Algorithms, Validation, and Prospects. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 188, pp. 89-108, 2022. ([PDF](https://doi.org/10.1016/j.isprsjprs.2022.03.020))**
 
 **Contributors:**
 
-- <a href='https://zhiweili.net/'>Dr. Zhiwei Li</a>, Wuhan University, <a href="mailto:dr.lizhiwei@gmail.com">dr.lizhiwei(AT)gmail.com</a>
-- Ms. Yuzhuo Zhang, Wuhan University, <a href="mailto:yuzhuozhang816@whu.edu.cn">yuzhuozhang816(AT)whu.edu.cn</a>
+- <a href='https://zhiweili.net/'>Dr. Zhiwei Li</a>, Wuhan University, dr.lizhiwei(AT)gmail.com
+- Ms. Yuzhuo Zhang, Wuhan University, yuzhuozhang816(AT)whu.edu.cn
 
 Last update: April 15, 2022
 
-**Open-source datasets for cloud and cloud shadow detection**
+
+**Open-Source Datasets for Cloud and Cloud Shadow Detection**
 
 | Name                            | Image Source                                 | References                            | Descriptions                                                 | Link                                                         |
 | ------------------------------- | -------------------------------------------- | ------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -39,29 +41,30 @@ Last update: April 15, 2022
 
 
 
-**Open-source tools for cloud and cloud shadow detection**
+**Open-Source Tools for Cloud and Cloud Shadow Detection**
 
-|            | Name        | Applicable images (mainly)   | References                     | Descriptions(data and method)             | Link                                                                                    |
+|            | **Name**    | **Applicable Images (Primarily)** | **References**                 | **Descriptions (Data and Method)** | **Link**                                                                                |
 |------------|-------------|------------------------------|--------------------------------|---------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Landsat** | Fmask       | Landsat 4-8 Sentinel-2       | Zhu et al., 2012 & 2015        | Mono-temporal<br />Physical rule based | [Link](https://github.com/GERSL/Fmask)                                                |
-|            | Tmask       | Landsat 4-8                  | Zhu and Woodcock, 2014b        | Multi-temporal<br />Temporal change based | [Link](https://github.com/GERSL/Tmask)                                                |
-|            | MSScvm      | Landsat MSS                  | Braaten et al., 2015           | Multi-source<br />Physical rule based | [Link](https://github.com/jdbcode/MSScvm)                                             |
-|            | MFmask      | Landsat 4-8                  | Qiu et al., 2017               | Multi-source<br />Physical rule based | [Link](https://github.com/qsly09/MFmask)                                                |
-|            | MCM-GEE     | Landsat-8                    | Mateo-García et al., 2018      | Multi-temporal<br />Temporal change based | [Link](https://github.com/IPL-UV/ee_ipl_uv)                                             |
-|            | Cloud-Net   | Landsat-8                    | Mohajerani and Saeedi, 2019    | Mono-temporal<br />DL based          | [Link](https://github.com/SorourMo/Cloud-Net-A-semantic-segmentation-CNN-for-cloud-detection) |
-|            | Cmask       | Landsat-8                    | Qiu et al., 2020               | Multi-temporal<br />Temporal change based | [Link](https://github.com/GERSL/Cmask)                                                  |
-|            | DAGANS      | Landsat-8 Proba-V            | Mateo-Garcia et al., 2020      | Mono-temporal<br />DL based          | [Link](https://github.com/IPL-UV/pvl8dagans)                                            |
-|            | FCNN        | Landsats-8 Sentinel-2        | López-Puigdollers et al., 2021 | Mono-temporal<br />DL based          | [Link](https://github.com/IPL-UV/DL-L8S2-UV)                                          |
-| **Sentinel-2** | MAJA        | Sentinel-2, VENμS, Landsat-8 | Hagolle et al., 2010           | Multi-temporal<br />Temporal change based | [Link](https://github.com/CNES/MAJA)                                                    |
-|            | cB4S2       | Sentinel-2                   | Hollstein et al., 2016         | Mono-temporal<br />Machine learning based | [Link](<https://github.com/hollstein/cB4S2)                                            |
-|            | Sen2Cor     | Sentinel-2                   | Main-Knorn et al., 2017        | Mono-temporal<br />Physical rule based | [Link](https://step.esa.int/main/snap-supported-plugins/sen2cor/)                     |
-|            | s2cloudless | Sentinel-2                   | Zupanc, 2017                   | Mono-temporal<br />Machine learning based | [Link](https://github.com/sentinel-hub/sentinel2-cloud-detector)                        |
-|            | FORCE    | Sentinel-2, Landsat 4-8         | Frantz et al., 2018            | Mono-temporal<br />Physical rule based | [Link](https://github.com/davidfrantz/force)                                   |
-|            | KappaMask   | Sentinel-2                   | Domnich et al., 2021           | Mono-temporal<br />DL based          | [Link](https://github.com/kappazeta/cm_predict)                                         |
-|            | CD-FM3SF    | Sentinel-2                   | Li et al., 2021           | Mono-temporal<br />DL based          | [Link](https://github.com/Neooolee/WHUS2-CD)                                         |
-| **Gaofen** | **MFC** | Gaofen-1 WFV             | Li et al., 2017            | Mono-temporal<br />Physical rule based | **[Link](http://sendimage.whu.edu.cn/en/mfc)**                                     |
+| Landsat | Fmask   | Landsat 4-8 Sentinel-2   | Zhu et al., 2012 & 2015    | Mono-temporal<br />Physical rule based | [Link](https://github.com/GERSL/Fmask)                                            |
+|            | Tmask   | Landsat 4-8              | Zhu and Woodcock, 2014b    | Multi-temporal<br />Temporal change based | [Link](https://github.com/GERSL/Tmask)                                            |
+|            | MSScvm  | Landsat MSS              | Braaten et al., 2015       | Multi-source<br />Physical rule based | [Link](https://github.com/jdbcode/MSScvm)                                         |
+|            | MFmask  | Landsat 4-8              | Qiu et al., 2017           | Multi-source<br />Physical rule based | [Link](https://github.com/qsly09/MFmask)                                            |
+|            | MCM-GEE | Landsat-8                | Mateo-García et al., 2018  | Multi-temporal<br />Temporal change based | [Link](https://github.com/IPL-UV/ee_ipl_uv)                                         |
+|            | Cloud-Net | Landsat-8                | Mohajerani and Saeedi, 2019 | Mono-temporal<br />DL based      | [Link](https://github.com/SorourMo/Cloud-Net-A-semantic-segmentation-CNN-for-cloud-detection) |
+|            | Cmask   | Landsat-8                | Qiu et al., 2020           | Multi-temporal<br />Temporal change based | [Link](https://github.com/GERSL/Cmask)                                              |
+|            | DAGANS  | Landsat-8 Proba-V        | Mateo-Garcia et al., 2020  | Mono-temporal<br />DL based      | [Link](https://github.com/IPL-UV/pvl8dagans)                                        |
+|            | FCNN    | Landsats-8 Sentinel-2    | López-Puigdollers et al., 2021 | Mono-temporal<br />DL based      | [Link](https://github.com/IPL-UV/DL-L8S2-UV)                                      |
+| Sentinel-2 | MAJA    | Sentinel-2, VENμS, Landsat-8 | Hagolle et al., 2010       | Multi-temporal<br />Temporal change based | [Link](https://github.com/CNES/MAJA)                                                |
+|            | cB4S2   | Sentinel-2               | Hollstein et al., 2016     | Mono-temporal<br />Machine learning based | [Link](https://github.com/hollstein/cB4S2)                                        |
+|            | Sen2Cor | Sentinel-2               | Main-Knorn et al., 2017    | Mono-temporal<br />Physical rule based | [Link](https://step.esa.int/main/snap-supported-plugins/sen2cor/)                 |
+|            | s2cloudless | Sentinel-2               | Zupanc, 2017               | Mono-temporal<br />Machine learning based | [Link](https://github.com/sentinel-hub/sentinel2-cloud-detector)                    |
+|            | FORCE | Sentinel-2, Landsat 4-8     | Frantz et al., 2018        | Mono-temporal<br />Physical rule based | [Link](https://github.com/davidfrantz/force)                               |
+|            | KappaMask | Sentinel-2               | Domnich et al., 2021       | Mono-temporal<br />DL based      | [Link](https://github.com/kappazeta/cm_predict)                                     |
+|            | CD-FM3SF | Sentinel-2               | Li et al., 2021       | Mono-temporal<br />DL based      | [Link](https://github.com/Neooolee/WHUS2-CD)                                     |
+| Gaofen | **MFC** | Gaofen-1 WFV             | Li et al., 2017            | Mono-temporal<br />Physical rule based | **[Link](http://sendimage.whu.edu.cn/en/mfc)**                                     |
 |            | GeoInfoNet  | Gaofen-1 WFV                 | Wu et al., 2021                | Mono-temporal<br />DL based          | [Link](https://github.com/permanentCH5/GeoInfoNet)                                      |
-| **Others** | N/A         | HR images                    | Xie et al., 2017               | Mono-temporal<br />DL based          | [Link](http://xfy.buaa.edu.cn/code.html)                                              |
+| Others | N/A         | HR images                    | Xie et al., 2017               | Mono-temporal<br />DL based          | [Link](http://xfy.buaa.edu.cn/code.html)                                              |
+
 
 **References**
 
