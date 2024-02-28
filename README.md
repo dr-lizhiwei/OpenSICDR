@@ -4,14 +4,22 @@ We collect the latest open-source tools and datasets for cloud and cloud shadow 
 
 **Source:**
 
-**Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features, Algorithms, Validation, and Prospects. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 188, pp. 89-108, 2022. ([PDF](https://doi.org/10.1016/j.isprsjprs.2022.03.020))**
+Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. **Cloud and Cloud Shadow Detection for Optical Satellite Imagery: Features, Algorithms, Validation, and Prospects**. *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 188, pp. 89-108, 2022. ([Link](https://doi.org/10.1016/j.isprsjprs.2022.03.020), [PDF](https://zhiweili.net/assets/pdf/2022.6_ISPRS%20P&RS_Cloud%20and%20cloud%20shadow%20detection%20for%20optical%20satellite%20imagery%EF%BC%9AFeatures,%20algorithms,%20validation,%20and%20prospects.pdf))
+
+<br />
 
 **Contributors:**
 
 - <a href='https://zhiweili.net/'>Dr. Zhiwei Li</a>, Wuhan University, dr.lizhiwei(AT)gmail.com
 - Ms. Yuzhuo Zhang, Wuhan University, yuzhuozhang816(AT)whu.edu.cn
 
-Last update: April 15, 2022
+<br />
+
+**Update log:**
+
+*Feb 28, 2024*: Added two new cloud detection datasets, GF1MS-WHU and GF2MS-WHU.
+
+<br />
 
 
 **Open-Source Datasets for Cloud and Cloud Shadow Detection**
@@ -39,7 +47,7 @@ Last update: April 15, 2022
 | AIR-CD                          | Gaofen-2 PMS (4 m)                           | He et al., 2021                       | Contains 34 Gaofen-2 full images and the corresponding cloud labels distributed at different regions of China. | [Link](https://github.com/AICyberTeam/AIR-CD)                |
 | **HRC_WHU**                     | Google Earth (0.5 m to 15 m)                 | Li et al., 2019                       | Comprises 150 globally distributed high-resolution images (0.5 m to 15 m resolution, three RGB channels) and the corresponding cloud masks. | **[Link](http://sendimage.whu.edu.cn/en/hrc_whu/)**          |
 
-
+<br />
 
 **Open-Source Tools for Cloud and Cloud Shadow Detection**
 
@@ -65,6 +73,7 @@ Last update: April 15, 2022
 |            | GeoInfoNet  | Gaofen-1 WFV                 | Wu et al., 2021                | Mono-temporal<br />DL based          | [Link](https://github.com/permanentCH5/GeoInfoNet)                                      |
 | Others | N/A         | HR images                    | Xie et al., 2017               | Mono-temporal<br />DL based          | [Link](http://xfy.buaa.edu.cn/code.html)                                              |
 
+<br />
 
 **References**
 
