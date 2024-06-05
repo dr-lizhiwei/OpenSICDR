@@ -15,12 +15,13 @@ Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. **
 
 <br />
 
-**Update log:**
+**Update logs:**
 
 *Feb 28, 2024*: Added two new cloud detection datasets, GF1MS-WHU and GF2MS-WHU.
 
-<br />
+*June 5, 2024*: 1) Added one new cloud detection dataset, CloudSEN12;  Added parts of cloud mask products in Google Earth Engine;
 
+<br />
 
 **Open-Source Datasets for Cloud and Cloud Shadow Detection**
 
@@ -39,6 +40,7 @@ Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. **
 | Sentinel-2 Cloud Mask Catalogue | Sentinel-2 (10 m)                            | Francis et al., 2020                  | Comprises 20 m resolution cloud masks for 513 subscenes, of which 424 subscenes are labeled for cloud shadows. | [Link](https://zenodo.org/record/4172871)                    |
 | Sentinel-2 KappaZeta            | Sentinel-2 (10 m)                            | Domnich et al., 2021                  | Contains 4403 labeled image blocks with a size of 512×512 pixels from 155 Sentinel-2 images over the Northern European terrestrial area. | [Link](https://zenodo.org/record/5095024)                    |
 | WHUS2-CD                        | Sentinel-2 (10 m)                            | Li et al., 2021                       | Contains 32 Sentinel-2 images distributed in Mainland China and its reference cloud masks labeled at 10 m resolution. | [Link](https://github.com/Neooolee/WHUS2-CD)                 |
+| CloudSEN12                      | Sentinel-2 (10 m)                            | Aybar et al., 2022                    | Contains 49,400 Sentinel-2 image patches, each sized 509×509 pixels, evenly distributed across all continents except Antarctica. | [Link](https://cloudsen12.github.io/)                        |
 | **GF1_WHU**                     | Gaofen-1 WFV (16 m)                          | Li et al., 2017                       | Contains 108 globally distributed GF-1 WFV scenes and their manually labeled cloud and cloud shadow masks. | **[Link](http://sendimage.whu.edu.cn/en/mfc-validation-data)** |
 | Levir_CS                        | Gaofen-1 WFV (16 m)                          | Wu et al., 2021                       | Contains 4,168 globally distributed Gaofen-1 WFV scenes (down sampled to 160 m resolution) and the corresponding geographical data, cloud, and snow labels. | [Link](https://github.com/permanentCH5/GeoInfoNet)           |
 | **GF1MS-WHU<br />GF2MS-WHU**    | Gaofen-1 PMS (8 m)<br />Gaofen-2 PMS (8 m)   | Zhu et al., 2024                      | Contains 141 unlabeled and 33 well-annotated 8-m Gaofen-1 PMS multispectral images;<br />Contains 163 unlabeled and 29 well-annotated 4-m Gaofen-2 multispectral images. | [Link](https://github.com/whu-ZSC/GF1-GF2MS-WHU)             |
@@ -75,8 +77,17 @@ Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. **
 
 <br />
 
+**Open-Source Cloud and Cloud Shadow Mask Products in Google Earth Engine**
+
+[1] Sentinel-2: Cloud Probability. [[Link](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_CLOUD_PROBABILITY)]
+
+[2] Sentinel-2: Cloud Score+. [[Link](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_CLOUD_SCORE_PLUS_V1_S2_HARMONIZED)]
+
+<br />
+
 **References**
 
+- Aybar, C., Ysuhuaylas, L., Loja, J., Gonzales, K., Herrera, F., Bautista, L., Yali, R., Flores, A., Diaz, L., Cuenca, N., Espinoza, W., Prudencio, F., Llactayo, V., Montero, D., Sudmanns, M., Tiede, D., Mateo-García, G., Gómez-Chova, L., 2022. CloudSEN12, a global dataset for semantic understanding of cloud and cloud shadow in Sentinel-2. Scientific Data 9. https://doi.org/10.1038/s41597-022-01878-2
 - Baetens, L., Desjardins, C., Hagolle, O., 2019. Validation of copernicus
   Sentinel-2 cloud masks obtained from MAJA, Sen2Cor, and FMask processors using
   reference cloud masks generated with a supervised active learning procedure.
@@ -87,9 +98,9 @@ Zhiwei Li, Huanfeng Shen, Qihao Weng, Yuzhuo Zhang, Peng Dou, Liangpei Zhang. **
   identification in Landsat MSS imagery for temperate ecosystems. Remote Sensing
   of Environment 169, 128–138. https://doi.org/10.1016/j.rse.2015.08.006
 - Domnich, M., Sünter, I., Trofimov, H., Wold, O., Harun, F., Kostiukhin, A.,
-  J?rveoja, M., Veske, M., Tamm, T., Voormansik, K., Olesk, A., Boccia, V.,
+  Jarveoja, M., Veske, M., Tamm, T., Voormansik, K., Olesk, A., Boccia, V.,
   Longepe, N., Cadau, E.G., 2021. KappaMask: AI-Based Cloudmask Processor for
-  Sentinel-2. Remote Sensing 13, 4140.
+  Sentinel-2. Remote Sensing 13, 4140. https://doi.org/10.3390/rs13204100
 - Foga, S., Scaramuzza, P.L., Guo, S., Zhu, Z., Dilley, R.D., Beckmann, T.,
   Schmidt, G.L., Dwyer, J.L., Joseph Hughes, M., Laue, B., 2017. Cloud detection
   algorithm comparison and validation for operational Landsat data products.
